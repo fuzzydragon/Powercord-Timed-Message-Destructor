@@ -1,0 +1,7 @@
+{
+	"name": "Timer Destruct",
+	"version": "0.0.1",
+	"description": "Delete your messages after 10 minutes.",
+	"author": "Andrew J.",
+	"license": "MIT"
+}  
