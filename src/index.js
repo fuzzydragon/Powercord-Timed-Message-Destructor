@@ -18,7 +18,6 @@ class TimerDestruct extends Plugin {
 	collector(data) {
 		if (data.message.author.id === getCurrentUser().id && data.message.member != null) {
 			queue.push({ channel: data.message.channel_id, id: data.message.id, timestamp: Date.now() })
-			console.log(`TIMER QUEUE: `, queue)
 		}
 	}
 
